@@ -1,4 +1,4 @@
-# Guide-Toure-Ai — Rwanda TourismGuard AI
+# Rwanda Tourism Guard AI
 
 ## Project report
 

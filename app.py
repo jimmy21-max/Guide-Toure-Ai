@@ -10,7 +10,7 @@ SRC_DIR = PROJECT_DIR / "src"
 ENTITIES_PATH = PROJECT_DIR / "data" / "processed" / "rdb_tourism_entities_enriched.csv"
 
 st.set_page_config(
-    page_title="TourismGuard AI",
+    page_title="Rwanda Tourism Guard AI",
     page_icon=":material/travel_explore:",
     layout="wide",
 )
@@ -337,7 +337,7 @@ TRAVEL_HERO = st.components.v2.component(
             <path d="M19 13 31 7l5 8-12 5Zm18-7 14 5-1 9-13-5Zm18 11 9 10-7 6-8-10Z" fill="#f3c63e"/>
           </svg>
           <div class="brand-name">
-            <strong>Rwanda<br/>TourismGuard AI</strong>
+            <strong>Rwanda<br/>Tourism Guard AI</strong>
             <span>Rwanda tourism law and RDB-listed entities</span>
           </div>
         </div> <br>
@@ -655,7 +655,7 @@ with main_column:
             )
         with greeting_text:
             st.markdown("### Hello! 👋")
-            st.markdown("#### I’m Rwanda TourismGuard AI")
+            st.markdown("#### I’m Rwanda Tourism Guard AI")
             st.caption(
                 "Ask about Rwanda’s tourism law, operating licences, or "
                 "businesses in the project’s tourism-entity directory."
@@ -976,7 +976,7 @@ with info_column:
         st.caption("Inference uses model files stored with this project.")
 
     with st.container(border=True, key="about-card"):
-        st.markdown("### :material/eco: Rwanda TourismGuard AI")
+        st.markdown("### :material/eco: Rwanda Tourism Guard AI")
         st.caption(
             "A local assistant for answers about Rwanda’s tourism law and "
             "businesses in the included tourism-entity directory."
@@ -986,7 +986,7 @@ with info_column:
 st.markdown(
     """
     <footer class="app-footer">
-      <span>Rwanda TourismGuard AI&nbsp;&nbsp; | &nbsp;&nbsp;Powered by local data
+      <span>Rwanda Tourism Guard AI&nbsp;&nbsp; | &nbsp;&nbsp;Powered by local data
       &nbsp;&nbsp; | &nbsp;&nbsp;Built with Python &amp; Streamlit</span>
       <span><i></i> Local model inference&nbsp; | &nbsp; Project data</span>
     </footer>
