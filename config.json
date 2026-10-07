@@ -1,0 +1,20 @@
+{
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_model_folder": "models\\all-MiniLM-L6-v2",
+  "embedding_dimension": 384,
+  "number_of_documents": 1080,
+  "similarity": "cosine (normalized dot product)",
+  "top_k": 3,
+  "language_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "language_model_folder": "models\\qwen2.5-0.5b-instruct",
+  "lexical_weight": 0.15,
+  "max_new_tokens": 120,
+  "max_context_chars": 600,
+  "refusal_threshold": 0.4,
+  "do_sample": false,
+  "top_k_list": 5,
+  "fuzzy_cutoff": 0.82,
+  "fast_path_for_entity_facts": true,
+  "list_limit": 15,
+  "list_questions_answered_by_filtering": true
+}
